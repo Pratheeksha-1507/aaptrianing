@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  - name: print the msges
+    debug: 
+      msg: "hello all welcome to aap"
