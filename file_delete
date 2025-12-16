@@ -1,0 +1,7 @@
+---
+hosts: all
+tasks:
+- name: delete a folder
+  file:
+    path: '/var/user20'
+    state: absent 
