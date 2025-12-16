@@ -1,0 +1,7 @@
+---
+hosts: all
+tasks:
+- name: create file
+  file:
+    path: '/var/user20/user20.txt'
+    state: touch
